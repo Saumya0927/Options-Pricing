@@ -25,3 +25,30 @@ This Python script implements the Black-Scholes model for option pricing and ana
    - Model parameters
    - Options analysis for calls and puts
    - Graphical representations of option prices and Greeks
+
+
+# Option Pricing Models
+
+This Python script implements multiple option pricing models and provides a comprehensive framework for option analysis.
+
+## Features
+
+- Implements Black-Scholes, Monte Carlo (American), and Binomial Tree pricing models
+- Supports both call and put options
+- Includes a test suite with multiple scenarios
+- Generates visualizations for Monte Carlo simulations and result comparisons
+- Performs statistical analysis on pricing results
+
+## Key Components
+
+- `OptionParams`: Dataclass for storing option parameters
+- `OptionPricingModel`: Class containing methods for different pricing models
+- `run_test_suite`: Function to execute tests across multiple scenarios
+- `analyze_results`: Function for statistical analysis and visualization of results
+
+## Usage
+
+1. Define test cases in the `test_cases` list within the main block
+2. Run the script to execute the test suite
+3. View the generated plots and analysis results
+4. Check the 'option_pricing_results.csv' file for detailed output
