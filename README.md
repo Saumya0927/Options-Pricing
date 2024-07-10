@@ -27,7 +27,7 @@ This Python script implements the Black-Scholes model for option pricing and ana
    - Graphical representations of option prices and Greeks
 
 
-# Option Pricing Models
+# Option Pricing Models (option_pricing.ipynb)
 
 This Python script implements multiple option pricing models and provides a comprehensive framework for option analysis.
 
